@@ -1,52 +1,74 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Arial", sans-serif;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
   }
   
   .navbar {
-    background-color: #333;
+    background-color: #000;
   }
   
-  .navbar-brand {
-    font-size: 1.5rem;
+  .bg-light {
+    background-color: #f8f9fa !important;
   }
   
-  .navbar-nav .nav-link {
-    color: #fff;
+  .bg-dark {
+    background-color: #000 !important;
   }
   
-  #bio .col-md-4 img {
-    width: 100%;
+  .text-white {
+    color: #fff !important;
   }
   
-  #projects .card {
-    margin-bottom: 20px;
+  .text-center {
+    text-align: center !important;
   }
   
-  footer {
-    color: #fff;
+  .py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
   }
   
-  footer a {
-    color: #ffc107;
+  .mb-4 {
+    margin-bottom: 1.5rem !important;
   }
   
-  footer input[type="email"] {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  .card {
+    border: 1px solid rgba(0, 0, 0, 0.125);
   }
   
-  footer button {
-    padding: 5px 15px;
-    background-color: #ffc107;
-    border: none;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
+  .card-img-top {
+    max-height: 200px;
+    object-fit: cover;
   }
+  
+  .card-img-bottom {
+    max-height: 150px;
+    object-fit: cover;
+  }
+  
+  .btn-dark {
+    background-color: #000 !important;
+    border-color: #000 !important;
+  }
+  
+  .btn-outline-light {
+    color: #fff !important;
+    border-color: #fff !important;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
+  .rounded-circle {
+    border-radius: 50%;
+  }
+  
   
