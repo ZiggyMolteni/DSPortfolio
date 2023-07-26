@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+  }
+  
+  .navbar {
+    background-color: #333;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  #bio .col-md-4 img {
+    width: 100%;
+  }
+  
+  #projects .card {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    color: #fff;
+  }
+  
+  footer a {
+    color: #ffc107;
+  }
+  
+  footer input[type="email"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  footer button {
+    padding: 5px 15px;
+    background-color: #ffc107;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
